@@ -115,3 +115,27 @@ img {
 .about-paragraph {
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+  .app-project-link {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .paragraph-text {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .launch {
+    text-align: center;
+  }
+  .app-links {
+    justify-content: center;
+  }
+  .app-links a {
+    width: 100%;
+  }
+}
