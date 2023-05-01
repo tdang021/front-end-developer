@@ -40,6 +40,7 @@ p {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .navigation-links {
@@ -117,7 +118,10 @@ img {
 }
 
 @media (max-width: 600px) {
-  img {
+  h1 {
+    font-size: 60px;
+  }
+  img .class {
     display: none;
   }
   .app-project-link {
@@ -137,5 +141,11 @@ img {
   }
   .app-links a {
     width: 100%;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .contact-me {
+    font-size: 35px;
   }
 }
